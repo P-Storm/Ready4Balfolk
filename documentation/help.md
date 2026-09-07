@@ -588,7 +588,8 @@ listed under the code, because only one of them is the one the phone is on. The 
 is a guess at which network that is: one with a router behind it goes before one without, and a
 tunnel goes last. It is only a guess, so if the phone cannot reach it, try the next line down. On a
 machine that is on no network at all there is nothing a phone could reach, so the dialog says that
-instead of drawing a code that would only send the phone to itself.
+instead of drawing a code that would only send the phone to itself. **Escape** puts the code away
+again, as does the close button under it.
 
 Both are enabled in **Settings**. The remote is off unless you turn it on, and it is guarded by a
 PIN: anyone who can reach the page and knows the PIN can change what the room is dancing to, so

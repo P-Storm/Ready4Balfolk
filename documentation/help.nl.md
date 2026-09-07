@@ -625,7 +625,8 @@ code, want maar een daarvan is het netwerk waar de telefoon op zit. Bovenaan sta
 netwerk dat is: een netwerk met een router erachter gaat voor een netwerk zonder, en een tunnel gaat
 achteraan. Het blijft een gok, dus bereikt de telefoon het niet, probeer dan de regel eronder. Zit de
 computer op geen enkel netwerk, dan is er niets wat een telefoon kan bereiken en zegt het venster
-dat, in plaats van een code te tekenen die de telefoon alleen naar zichzelf stuurt.
+dat, in plaats van een code te tekenen die de telefoon alleen naar zichzelf stuurt. **Escape** haalt
+de code weer weg, net als de sluitknop eronder.
 
 Beide worden aangezet in **Instellingen**. De afstandsbediening staat uit tot jij hem aanzet, en
 is beveiligd met een pincode: wie de pagina kan bereiken en de pincode kent, kan veranderen waar de
