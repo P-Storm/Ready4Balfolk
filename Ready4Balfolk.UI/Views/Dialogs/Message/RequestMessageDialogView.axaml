@@ -24,6 +24,7 @@
             </Grid>
             <TextBox x:Name="MessageBox"
                      AutomationProperties.AutomationId="message.text"
+                     AutomationProperties.Name="{x:Static res:UiStrings.Dialog_MessageLabel}"
                      Text="{CompiledBinding Message}"
                      MaxLength="60"
                      PlaceholderText="{x:Static res:UiStrings.Dialog_MessageWatermark}" />
@@ -43,6 +44,7 @@
                     IsVisible="{CompiledBinding UseDelay}">
             <TextBlock Text="{x:Static res:UiStrings.Dialog_DelayDuration}" />
             <NumericUpDown AutomationProperties.AutomationId="message.seconds"
+                           AutomationProperties.Name="{x:Static res:UiStrings.Dialog_DelayDuration}"
                            Value="{CompiledBinding DelaySeconds}"
                            Minimum="1"
                            Maximum="300"
